@@ -19,6 +19,8 @@ if (isset($_GET["module"])) {
             }
             break;
     }
+} else {
+    header( 'Location: client/' ) ;
 }
 
 
